@@ -1,0 +1,207 @@
+     
+     
+     
+npm i react-toastify Library
+
+     
+     toast("Default Notification !");
+
+      toast.success("Success Notification !", {
+        position: "top-center"
+      });
+
+      toast.error("Error Notification !", {
+        position: "top-left"
+      });
+
+      toast.warn("Warning Notification !", {
+        position: "bottom-left"
+      });
+
+      toast.info("Info Notification !", {
+        position: "bottom-center"
+      });
+
+      toast("Custom Style Notification with css class!", {
+        position: "bottom-right",
+        className: 'foo-bar'
+      });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      {
+    "message": "success",
+    "priceList": [
+        {
+            "CompanyName": "alborg laboratory",
+            "testCount": 2,
+            "total": {
+                "totalPrice": 610,
+                "totalPriceAfterDiscount": 559
+            },
+            "arr": [
+                {
+                    "_id": "66dac42e9306cee368988c71",
+                    "testName": "urine analysis",
+                    "companyName": "alborg laboratory",
+                    "price": 130,
+                    "priceAfterDiscount": 122.2,
+                    "discount": 6,
+                    "final_amount": 50,
+                    "test": "66dac42e9306cee368988c6b",
+                    "company": "66dac37e9306cee368988c20",
+                    "createdBy": "66797f523ca117dc8e34cb63",
+                    "createdAt": "2024-09-06T08:58:22.822Z",
+                    "updatedAt": "2024-09-06T08:58:22.822Z",
+                    "__v": 0
+                },
+                {
+                    "_id": "66dac4529306cee368988c8d",
+                    "testName": "stool analysis",
+                    "companyName": "alborg laboratory",
+                    "price": 480,
+                    "priceAfterDiscount": 436.8,
+                    "discount": 9,
+                    "final_amount": 130,
+                    "test": "66dac4529306cee368988c87",
+                    "company": "66dac37e9306cee368988c20",
+                    "createdBy": "66797f523ca117dc8e34cb63",
+                    "createdAt": "2024-09-06T08:58:58.806Z",
+                    "updatedAt": "2024-09-06T08:58:58.806Z",
+                    "__v": 0
+                }
+            ]
+        },
+        {
+            "CompanyName": "mokhtabar laboratory",
+            "testCount": 2,
+            "total": {
+                "totalPrice": 800,
+                "totalPriceAfterDiscount": 720
+            },
+            "arr": [
+                {
+                    "_id": "673ecde806444ff0ece32c3e",
+                    "testName": "urine analysis",
+                    "companyName": "mokhtabar laboratory",
+                    "price": 400,
+                    "discount": 10,
+                    "final_amount": 200,
+                    "test": "66dac42e9306cee368988c6b",
+                    "company": "66dac3a99306cee368988c2b",
+                    "createdAt": "2024-11-21T06:06:32.464Z",
+                    "updatedAt": "2024-11-22T11:44:09.891Z",
+                    "__v": 0,
+                    "priceAfterDiscount": 360
+                },
+                {
+                    "_id": "673ecdfd06444ff0ece32c4d",
+                    "testName": "stool analysis",
+                    "companyName": "mokhtabar laboratory",
+                    "price": 400,
+                    "discount": 10,
+                    "final_amount": 200,
+                    "test": "66dac4529306cee368988c87",
+                    "company": "66dac3a99306cee368988c2b",
+                    "createdAt": "2024-11-21T06:06:53.139Z",
+                    "updatedAt": "2024-11-22T11:44:23.858Z",
+                    "__v": 0,
+                    "priceAfterDiscount": 360
+                }
+            ]
+        },
+        {
+            "CompanyName": "alpha laboratory",
+            "testCount": 2,
+            "total": {
+                "totalPrice": 1200,
+                "totalPriceAfterDiscount": 1080
+            },
+            "arr": [
+                {
+                    "_id": "673ece1f06444ff0ece32c54",
+                    "testName": "stool analysis",
+                    "companyName": "alpha laboratory",
+                    "price": 600,
+                    "discount": 10,
+                    "final_amount": 400,
+                    "test": "66dac4529306cee368988c87",
+                    "company": "66dac3d49306cee368988c36",
+                    "createdAt": "2024-11-21T06:07:27.188Z",
+                    "updatedAt": "2024-11-22T11:44:49.365Z",
+                    "__v": 0,
+                    "priceAfterDiscount": 540
+                },
+                {
+                    "_id": "673ece2b06444ff0ece32c5b",
+                    "testName": "urine analysis",
+                    "companyName": "alpha laboratory",
+                    "price": 600,
+                    "discount": 10,
+                    "final_amount": 400,
+                    "test": "66dac42e9306cee368988c6b",
+                    "company": "66dac3d49306cee368988c36",
+                    "createdAt": "2024-11-21T06:07:39.996Z",
+                    "updatedAt": "2024-11-22T11:44:59.298Z",
+                    "__v": 0,
+                    "priceAfterDiscount": 540
+                }
+            ]
+        },
+        {
+            "CompanyName": "osgdfgra",
+            "testCount": 2,
+            "total": {
+                "totalPrice": 1600,
+                "totalPriceAfterDiscount": 1568
+            },
+            "arr": [
+                {
+                    "_id": "6741797fe720135c9e6396bf",
+                    "testName": "stool analysis",
+                    "companyName": "osgdfgra",
+                    "price": 800,
+                    "priceAfterDiscount": 784,
+                    "discount": 2,
+                    "final_amount": 200,
+                    "test": "66dac4529306cee368988c87",
+                    "company": "66eb0a343257d70eb3d4000f",
+                    "createdAt": "2024-11-23T06:43:11.076Z",
+                    "updatedAt": "2024-11-23T06:43:11.076Z",
+                    "__v": 0
+                },
+                {
+                    "_id": "67417987e720135c9e6396c6",
+                    "testName": "urine analysis",
+                    "companyName": "osgdfgra",
+                    "price": 800,
+                    "priceAfterDiscount": 784,
+                    "discount": 2,
+                    "final_amount": 200,
+                    "test": "66dac42e9306cee368988c6b",
+                    "company": "66eb0a343257d70eb3d4000f",
+                    "createdAt": "2024-11-23T06:43:19.388Z",
+                    "updatedAt": "2024-11-23T06:43:19.388Z",
+                    "__v": 0
+                }
+            ]
+        }
+    ]
+}
