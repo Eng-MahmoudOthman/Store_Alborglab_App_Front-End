@@ -14,8 +14,8 @@ import ProtectedRoute from './Components/ProtectedRoute/ProtectedRoute.jsx';
 import Contact from './Components/Contact/Contact.jsx';
 import UserProfile from './Components/UserProfile/UserProfile.jsx';
 import ShareWebsite from './Components/ShareWebsite/ShareWebsite.jsx';
-import './App.css';
 import BarcodeScanner from './Components/BarcodeScanner/BarcodeScanner.jsx';
+import './App.css';
 
 
 
@@ -74,10 +74,13 @@ function App() {
 
 	return (
 		<>
+			{/* <audio src="/sound.wav" type="audio/wav" controls preload="auto" /> */}
+			{/* <Audio /> */}
 			<BarcodeScanner/>
-			<RouterProvider router={routers} ></RouterProvider>
+			{/* <RouterProvider router={routers} ></RouterProvider>
 			<Toaster/>
-			<ToastContainer/>
+			<ToastContainer/> */}
+			
 		</>
 	);
 }
