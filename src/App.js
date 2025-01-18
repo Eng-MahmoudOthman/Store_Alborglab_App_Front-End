@@ -74,7 +74,6 @@ function App() {
 
 	return (
 		<>
-			{/* <audio src="/sound.wav" type="audio/wav" controls preload="auto" /> */}
 			{/* <Audio /> */}
 			<BarcodeScanner/>
 			{/* <RouterProvider router={routers} ></RouterProvider>

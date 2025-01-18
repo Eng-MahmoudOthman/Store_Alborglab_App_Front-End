@@ -1,38 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import { BrowserMultiFormatReader } from '@zxing/library';
 import React, { useState, useEffect, useRef } from 'react';
 
@@ -42,6 +7,9 @@ export default function BarcodeScanner() {
   const videoRef = useRef(null);
   const beepSound = useRef(null); // Reference to the beep sound
   const codeReader = useRef(new BrowserMultiFormatReader());
+
+
+
 
   useEffect(() => {
     const startScanning = () => {
@@ -83,11 +51,9 @@ export default function BarcodeScanner() {
   };
 
   const handleClick = () => {
-    console.log('Done Here');
     setResult(null);
     setScanning(true);
   };
-
 
   const playBeepSound = () => {
     if (beepSound.current) {
@@ -98,13 +64,21 @@ export default function BarcodeScanner() {
     }
   };
 
+
+
+
+
+      // const playAudio = () => {
+      //   const audio = new Audio(process.env.PUBLIC_URL + '/beep.mp3'); // For public folder
+      //   audio.play();
+      // };
+
   return (
     <>
-      {/* Beep sound (hidden audio element) */}
-      <audio ref={beepSound} src="/beep.mp3" preload="auto" controls/>
-
+      {/* <button onClick={playAudio}>Audio</button> */}
       <div>
         <button onClick={handleClick}>Start Scanning</button>
+        <audio ref={beepSound} src={process.env.PUBLIC_URL + '/beep.mp3'} preload="auto" controls/>
 
         <div>
           <video
