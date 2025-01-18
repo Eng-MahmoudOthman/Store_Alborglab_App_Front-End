@@ -1,0 +1,28 @@
+
+
+
+
+.video-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 10px solid yellow;
+   border-radius: 40px;
+   -webkit-border-radius: 40px;
+   -moz-border-radius: 40px;
+   -ms-border-radius: 40px;
+   -o-border-radius: 40px;
+   overflow: hidden;
+}
+
+video {
+   width: 100%;
+   object-fit: cover; 
+}   
+
+/* Medium Screen */
+@media (min-width:992px){
+   video {
+      height: 400px ;
+   }   
+}
