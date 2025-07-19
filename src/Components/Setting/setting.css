@@ -1,0 +1,21 @@
+
+.setting-container{
+   
+}
+.setting-container .account-card div{
+   padding: 4px 10px;
+   margin: 1px;
+}
+.setting-container .account-card p{
+   font-size: 14px;
+}
+.setting-container .text-box-more{
+   font-size: 14px;
+}
+
+
+
+.btn-group .btn:hover  {
+   background-color: var(--main-color) ;
+   /* color: black; */
+}

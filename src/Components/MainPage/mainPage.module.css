@@ -1,0 +1,22 @@
+
+
+
+.carouselImg {
+   object-fit: fill; 
+}
+.carouselItem {
+   height: 500px; 
+}
+
+
+
+
+.notification {
+   top: 20px;
+   right: 0;
+}
+
+
+.carouselDiv {
+   height: 160px;
+}

@@ -1,0 +1,77 @@
+
+
+
+.divMobileImgCover {
+   margin-left:15px;
+   width: 65px;
+   height: 65px;
+   border: 4px solid var(--main-color);
+   overflow: hidden;
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.imgCover {
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+}
+
+
+
+.iconTeam{
+   font-size: 25px;
+}
+.team{
+   font-size: 16px;
+}
+
+
+.info{
+   margin: -10px 0px  !important;
+   font-weight: bold;
+}
+.mainIcon{
+   position: absolute;
+   width: 80px;
+   height: 80px;
+   bottom: 3px;
+   left: 50%;
+   font-size: 30px !important;
+   border-radius: 50%;
+   border: 5px solid white !important;
+   transform: translateX(-50%);
+   border: 10px solid var(--main-color);
+   background-color: var(--main-color) !important;
+   -webkit-transform: translateX(-50%);
+   -moz-transform: translateX(-50%);
+   -ms-transform: translateX(-50%);
+   -o-transform: translateX(-50%);
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.consumptionIcon{
+   margin-left: 20px;
+}
+.settingIcon{
+   margin-right: 20px;
+}
+.sidebar {
+   border-top-right-radius: 20px;
+   border-top-left-radius: 20px;
+}

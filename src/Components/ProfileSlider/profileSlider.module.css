@@ -1,0 +1,19 @@
+
+
+.card {
+   border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   -ms-border-radius: 5px;
+   -o-border-radius: 5px;
+   overflow: hidden ;
+}
+
+.imageSlider {
+   width: 100%;
+}
+.title {
+   text-transform: capitalize ;
+   font-size: 10px;
+   font-weight: bold;
+}
