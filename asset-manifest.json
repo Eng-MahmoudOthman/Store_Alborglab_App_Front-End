@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Store_Alborglab_App_Front-End/static/css/main.8ce82f18.css",
-    "main.js": "/Store_Alborglab_App_Front-End/static/js/main.1d946aaf.js",
+    "main.css": "/Store_Alborglab_App_Front-End/static/css/main.f45d0e5d.css",
+    "main.js": "/Store_Alborglab_App_Front-End/static/js/main.8b09e798.js",
     "static/js/453.480ad493.chunk.js": "/Store_Alborglab_App_Front-End/static/js/453.480ad493.chunk.js",
     "static/media/fa-solid-900.ttf": "/Store_Alborglab_App_Front-End/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
     "static/media/fa-brands-400.ttf": "/Store_Alborglab_App_Front-End/static/media/fa-brands-400.6205fd00fb1b573e9f0f.ttf",
@@ -21,12 +21,12 @@
     "static/media/fa-v4compatibility.ttf": "/Store_Alborglab_App_Front-End/static/media/fa-v4compatibility.2eb7b3ef25042305f3ff.ttf",
     "static/media/fa-v4compatibility.woff2": "/Store_Alborglab_App_Front-End/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
     "index.html": "/Store_Alborglab_App_Front-End/index.html",
-    "main.8ce82f18.css.map": "/Store_Alborglab_App_Front-End/static/css/main.8ce82f18.css.map",
-    "main.1d946aaf.js.map": "/Store_Alborglab_App_Front-End/static/js/main.1d946aaf.js.map",
+    "main.f45d0e5d.css.map": "/Store_Alborglab_App_Front-End/static/css/main.f45d0e5d.css.map",
+    "main.8b09e798.js.map": "/Store_Alborglab_App_Front-End/static/js/main.8b09e798.js.map",
     "453.480ad493.chunk.js.map": "/Store_Alborglab_App_Front-End/static/js/453.480ad493.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ce82f18.css",
-    "static/js/main.1d946aaf.js"
+    "static/css/main.f45d0e5d.css",
+    "static/js/main.8b09e798.js"
   ]
 }
